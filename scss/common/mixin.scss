@@ -1,0 +1,25 @@
+@mixin head-style {
+    font-family: Comfortaa;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+        
+}
+
+@mixin product__style-price-title{
+    font-family: Yeseva One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color:  #000;
+}
+
+@mixin product__style-text {
+    font-family: Comfortaa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 27px;
+}

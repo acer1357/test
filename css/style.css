@@ -1,0 +1,146 @@
+.product__item-box {
+  max-width: 290px;
+  text-align: center;
+}
+
+.product__item-button .product__button {
+  padding: 18px 54px;
+  background-color: #FFBD59;
+  color: #272727;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-weight: 600;
+}
+.product__item-button .product__button:hover {
+  color: #fff;
+  background: #7B6152;
+  transition: 0.5s;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background: #FFF8F3;
+}
+
+.container {
+  max-width: 1162px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.header__menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.header__menu li a {
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.phone {
+  color: #000;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+.phone::before {
+  content: url(../image/phone.svg);
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
+.main {
+  padding-top: 150px;
+}
+
+.product {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.product__title-inner {
+  max-width: 372px;
+  margin-right: 69px;
+}
+
+.product__title {
+  color: #000;
+  font-family: Yeseva One;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.product__title-text {
+  color: #000;
+  font-family: Comfortaa;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.product__items {
+  max-width: 673px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 93px;
+}
+
+.product__item-box .product__item-price {
+  font-family: Yeseva One;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+}
+.product__item-box .product__item-title {
+  font-family: Yeseva One;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+}
+.product__item-box .product__item-text {
+  font-family: Comfortaa;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 27px;
+}
+
+.main__container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.main__container .line__bottom {
+  display: flex;
+  justify-content: end;
+}
+
+/*# sourceMappingURL=style.css.map */

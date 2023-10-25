@@ -1,0 +1,137 @@
+@import "./common/mixin.scss";
+@import "./common/extends.scss";
+
+html{
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background: #FFF8F3;
+}
+
+
+.container{
+    max-width: 1162px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.header__menu{
+    li{
+        display: inline-block;
+        margin-left: 20px;
+        a{
+            @include head-style;
+            
+        }
+    }
+    
+}
+
+.phone{
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+
+    &::before{
+        content: url(../image/phone.svg);
+        width: 20px;
+        height: 20px;
+        margin-right: 3px;
+    }
+}
+
+
+.main{
+    padding-top: 150px;
+}
+
+.product{
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.product__title-inner{
+    max-width: 372px;
+    margin-right: 69px;
+}
+
+.product__title{
+    color: #000;
+    font-family: Yeseva One;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.product__title-text{
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.product__items{
+    max-width: 673px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 93px;
+   
+    
+    
+}
+
+.product__item-box{
+    @extend %extend-example;
+
+    .product__item-price{
+       @include product__style-price-title;
+    }
+
+    .product__item-title{
+        @include product__style-price-title;
+    }
+
+    .product__item-text{
+        @include product__style-text;
+    }
+}
+
+.product__item-button{
+
+
+
+
+.product__button{
+    @extend %extend-button;
+}
+}
+
+
+.main__container{
+    margin: 0 auto;
+    max-width: 1440px;
+.line__bottom{
+    display: flex;
+    justify-content: end;
+}
+}

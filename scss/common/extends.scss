@@ -1,0 +1,24 @@
+%extend-example {
+    max-width: 290px;
+    text-align: center;
+}
+
+%extend-button{
+    padding: 18px 54px;
+    background-color:#FFBD59;
+    color: #272727;
+    font-family: Comfortaa;
+    font-size: 14px;
+    font-weight: 600;
+
+   
+    
+
+    &:hover{
+        color: #fff;
+        background: #7B6152;
+        transition: .5s;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
