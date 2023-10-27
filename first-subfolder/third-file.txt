@@ -1,1 +1,3 @@
 third file text
+
+cl,vblc,bl;cb
